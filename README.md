@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust involving undefined behavior caused by unsafe code. The `bug.rs` file contains code that uses `as_mut_ptr()` to get a raw pointer to the vector's data.  Modifying this raw pointer can lead to unexpected behavior, crashes, or memory corruption. The `bugSolution.rs` file offers a safer approach.
